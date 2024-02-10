@@ -1,5 +1,5 @@
 ---
-- name: install | GnuPG
+- name: Install | GnuPG
   ansible.builtin.package:
     name: gnupg2
     state: present
