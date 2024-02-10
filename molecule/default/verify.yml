@@ -13,3 +13,4 @@
     - name: Check gpg command
       ansible.builtin.command:
         cmd: gpg --version
+      changed_when: false
