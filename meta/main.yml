@@ -5,7 +5,7 @@ galaxy_info:
   role_name: gpg
   namespace: lstig
   author: Luke Stigdon
-  description: gpg role
+  description: Install and manage GNU Privacy Guard.
   license: MIT
   min_ansible_version: "2.10"
   # https://galaxy.ansible.com/api/v1/platforms/
@@ -28,3 +28,5 @@ galaxy_info:
         - jammy # 22.04
   galaxy_tags:
     - gpg
+    - gnupg
+    - pgp
