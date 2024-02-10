@@ -10,6 +10,6 @@
         tasks_from: init
         public: true
 
-    - name: Example assertion
-      ansible.builtin.assert:
-        that: true
+    - name: Check gpg command
+      ansible.builtin.command:
+        cmd: gpg --version

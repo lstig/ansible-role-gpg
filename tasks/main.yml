@@ -1,6 +1,6 @@
 ---
-- name: Install | GnuPG
+- name: Install {{ gpg_package_name }}
   ansible.builtin.package:
-    name: gnupg2
+    name: "{{ gpg_package_name }}"
     state: present
     update_cache: true

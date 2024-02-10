@@ -1,2 +1,2 @@
 ---
-# vars file for gpg
+gpg_package_name: gnupg2
